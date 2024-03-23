@@ -8,7 +8,7 @@ export function Assignment1() {
     // Your solution starts here
     const expensiveValue = useMemo(()=>{
         let value=1;
-        for (i=1;i<=input;i++){
+        for (let i=1;i<=input;i++){
             value=value*i;
         }
         return value;
